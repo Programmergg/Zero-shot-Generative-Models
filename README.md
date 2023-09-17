@@ -5,7 +5,6 @@ Here, we have omitted the creation of the datasets. Please refer to other Genera
 Our framework is suitable for APY, AWA1, AWA2, CUB (with 312-dim attributes or 1024-dim attributes), FLO and SUN. The relevant experiments have been conducted.
 
 First, we will showcase the results produced by various generative models under the most common GZSL training process. The specific results are as follows:
-
 | Methods                | Source                        | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |------------------------|--------------------------------------|-----------------|---------------|---------------|
 | AE                     | -                                    | 48.77%          | 56.92%        | 52.53%        |
@@ -40,8 +39,6 @@ Certainly, in addition to various generative models, we also demonstrate three v
 These three tricks will significantly enhance the final results!
 
 Under the influence of these three tricks, the current performance of GZSL is primarily represented as follows (The reason we are not considering AWA1 is that we have also tested various GZSL results with different backbones, and the AWA1 image dataset has not been open-sourced):
-<center>
-
 | Datasets | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |----------|-----------------|---------------|---------------|
 | APY      | 37.1%           | 59.3%         | 45.6%         |
@@ -49,5 +46,3 @@ Under the influence of these three tricks, the current performance of GZSL is pr
 | AWA2     | 64.4%           | 78.7%         | 70.8%         |
 | CUB      | 49.2%           | 61.6%         | 55.5%         |
 | SUN      | 48.9%           | 37.9%         | 42.7%         |
-
-</center>
