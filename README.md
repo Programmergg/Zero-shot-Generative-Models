@@ -40,6 +40,8 @@ Certainly, in addition to various generative models, we also demonstrate three v
 These three tricks will significantly enhance the final results!
 
 Under the influence of these three tricks, the current performance of GZSL is primarily represented as follows (The reason we are not considering AWA1 is that we have also tested various GZSL results with different backbones, and the AWA1 image dataset has not been open-sourced):
+<center>
+
 | Datasets | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |----------|-----------------|---------------|---------------|
 | APY      | 37.1%           | 59.3%         | 45.6%         |
@@ -47,3 +49,5 @@ Under the influence of these three tricks, the current performance of GZSL is pr
 | AWA2     | 64.4%           | 78.7%         | 70.8%         |
 | CUB      | 49.2%           | 61.6%         | 55.5%         |
 | SUN      | 48.9%           | 37.9%         | 42.7%         |
+
+</center>
