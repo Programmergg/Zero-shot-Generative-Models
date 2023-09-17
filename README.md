@@ -46,3 +46,66 @@ Under the influence of these three tricks, the current performance of GZSL is pr
 | AWA2     | 64.4%           | 78.7%         | 70.8%         |
 | CUB      | 49.2%           | 61.6%         | 55.5%         |
 | SUN      | 48.9%           | 37.9%         | 42.7%         |
+
+
+<table>
+<tr>
+<th>Datasets</th>
+<th>Pretrained Model</th>
+<th>Unseen Accuracy</th>
+<th>Seen Accuracy</th>
+<th>Harmonic Mean</th>
+</tr>
+
+<tr>
+<td rowspan="4">AWA2</td>
+<td>convnext_tiny_1k_224_ema</td>
+<td>48.78%</td>
+<td><span style="color:red">64.99%</span></td>
+<td><span style="color:red">55.73%</span></td>
+</tr>
+<tr>
+<td>convnext_small_1k_224_ema</td>
+<td>37.77%</td>
+<td>53.05%</td>
+<td>44.13%</td>
+</tr>
+<tr>
+<td>convnext_base_1k_224_ema</td>
+<td>45.83%</td>
+<td>67.94%</td>
+<td>54.73%</td>
+</tr>
+<tr>
+<td>convnext_large_1k_224_ema</td>
+<td>37.54%</td>
+<td>50.58%</td>
+<td>43.09%</td>
+</tr>
+
+<tr>
+<td rowspan="4">CUB</td>
+<td>convnext_tiny_1k_224_ema</td>
+<td>33.67%</td>
+<td>28.98%</td>
+<td>31.15%</td>
+</tr>
+<tr>
+<td>convnext_small_1k_224_ema</td>
+<td>28.35%</td>
+<td>30.79%</td>
+<td>29.52%</td>
+</tr>
+<tr>
+<td>convnext_base_1k_224_ema</td>
+<td>32.21%</td>
+<td>30.62%</td>
+<td>31.39%</td>
+</tr>
+<tr>
+<td>convnext_large_1k_224_ema</td>
+<td>27.77%</td>
+<td><span style="color:blue">34.64%</span></td>
+<td><span style="color:blue">30.83%</span></td>
+</tr>
+</table>
