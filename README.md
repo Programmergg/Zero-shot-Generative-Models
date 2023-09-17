@@ -157,27 +157,27 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |          | swin_base_patch4_window7_224_from_scratch | 22.25%          | 26.29%         | 24.10%         |
 |          | swin_base_patch4_window12_384         | 34.60%  🔵        | 32.79%   🔴      | 33.67%   🔴      |
 |          | swin_base_patch4_window12_384_from_scratch | 1.65%           | 1.12%          | 1.33%          |
-| CUB2     | swin_tiny_patch4_window7_224         | 39.14% 🔵       | 32.32% 🔵     | 35.40% 🔵     |
+| CUB2     | swin_tiny_patch4_window7_224         | 39.14% 🔴       | 32.32%      | 35.40% 🔴     |
 |          | swin_tiny_patch4_window7_224_from_scratch | 14.19%          | 16.04%         | 15.06%         |
-|          | swin_small_patch4_window7_224         | 34.60%          | 32.79% 🔴     | 33.67% 🔴     |
+|          | swin_small_patch4_window7_224         | 34.60%   🔵        | 32.79% 🔵     | 33.67% 🔵     |
 |          | swin_small_patch4_window7_224_from_scratch | 18.70%          | 17.40%         | 18.03%         |
-|          | swin_base_patch4_window7_224          | 32.07%          | 33.97%         | 33.00%         |
+|          | swin_base_patch4_window7_224          | 32.07%          | 33.97%    🔴     | 33.00%         |
 |          | swin_base_patch4_window7_224_from_scratch | 20.38%          | 22.27%         | 21.28%         |
 |          | swin_base_patch4_window12_384         | 33.31%          | 31.49%         | 32.38%         |
 |          | swin_base_patch4_window12_384_from_scratch | 1.70%           | 0.89%          | 1.17%          |
-| SUN      | swin_tiny_patch4_window7_224         | 42.78% 🔴       | 16.28% 🔴     | 23.58% 🔴     |
+| SUN      | swin_tiny_patch4_window7_224         | 42.78%        | 16.28% 🔴     | 23.58% 🔴     |
 |          | swin_tiny_patch4_window7_224_from_scratch | 16.32%          | 14.65%         | 15.44%         |
-|          | swin_small_patch4_window7_224         | 42.92%          | 23.45% 🔵     | 30.33% 🔵     |
+|          | swin_small_patch4_window7_224         | 42.92%   🔵       | 23.45%      | 30.33% 🔵     |
 |          | swin_small_patch4_window7_224_from_scratch | 16.18%          | 13.29%         | 14.60%         |
-|          | swin_base_patch4_window7_224          | 42.99%          | 26.98%         | 33.15%         |
+|          | swin_base_patch4_window7_224          | 42.99%   🔴       | 26.98% 🔵        | 33.15%    🔴     |
 |          | swin_base_patch4_window7_224_from_scratch | 15.63%          | 8.49%          | 11.00%         |
-|          | swin_base_patch4_window12_384         | 40.90%          | 27.87%         | 33.15%         |
+|          | swin_base_patch4_window12_384         | 40.90%          | 27.87%   🔴      | 33.15%   🔴      |
 |          | swin_base_patch4_window12_384_from_scratch | 1.11%           | 0.58%          | 0.76%          |
-| aPY      | swin_tiny_patch4_window7_224         | 10.52%          | 27.53% 🔵     | 15.23% 🔵     |
+| aPY      | swin_tiny_patch4_window7_224         | 10.52%          | 27.53% 🔵     | 15.23%      |
 |          | swin_tiny_patch4_window7_224_from_scratch | 14.47%          | 21.56%         | 17.32%         |
-|          | swin_small_patch4_window7_224         | 17.30%          | 19.44% 🔴     | 18.31% 🔴     |
+|          | swin_small_patch4_window7_224         | 17.30%          | 19.44%      | 18.31%    |
 |          | swin_small_patch4_window7_224_from_scratch | 14.48%          | 26.98%         | 18.84%         |
-|          | swin_base_patch4_window7_224          | 21.52%          | 20.79%         | 21.15%         |
+|          | swin_base_patch4_window7_224          | 21.52%   🔵       | 20.79%         | 21.15%   🔵      |
 |          | swin_base_patch4_window7_224_from_scratch | 17.51%          | 22.84%         | 19.82%         |
-|          | swin_base_patch4_window12_384         | 25.60%          | 27.18%         | 26.36%         |
-|          | swin_base_patch4_window12_384_from_scratch | 15.40%          | 32.54%         | 
+|          | swin_base_patch4_window12_384         | 25.60%  🔴        | 27.18%         | 26.36%  🔴       |
+|          | swin_base_patch4_window12_384_from_scratch | 15.40%          | 32.54%  🔴      | 20.90%   |
