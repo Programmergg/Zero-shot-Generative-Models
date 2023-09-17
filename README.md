@@ -30,3 +30,9 @@ First, we will showcase the results produced by various generative models under 
 Note: 
 1. All the results mentioned above are based on experiments conducted on AWA1, where generally generating 2,000 unseen samples yields the optimal results. However, on AWA2, it usually takes creating 4,000 unseen samples to achieve the best outcome. For CUB and SUN, typically 400-500 unseen samples are enough, and the same goes for FLO and AWA1. 
 2. Although CramerGAN exhibits excellent performance, it cannot escape the phenomenon of mode collapse. If a situation arises where the Unseen Accuracy is zero, please change the value of the seed, as it can play a crucial role!
+
+Certainly, in addition to various generative models, we also demonstrate three very useful tricks:
+1. Replacing the original WGAN training method with the CramerGAN training method.
+2. Applying a certain degree of Gaussian noise separately on seen and unseen attributes.
+3. Utilizing the generative prototypes classifier.
+These three tricks will significantly enhance the final results!
