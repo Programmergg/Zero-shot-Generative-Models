@@ -165,7 +165,7 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |          | swin_base_patch4_window7_224_from_scratch | 20.38%          | 22.27%         | 21.28%         |
 |          | swin_base_patch4_window12_384         | 33.31%          | 31.49%         | 32.38%         |
 |          | swin_base_patch4_window12_384_from_scratch | 1.70%           | 0.89%          | 1.17%          |
-| SUN      | swin_tiny_patch4_window7_224         | 42.78%        | 16.28% 🔴     | 23.58% 🔴     |
+| SUN      | swin_tiny_patch4_window7_224         | 42.78%        | 16.28%      | 23.58%     |
 |          | swin_tiny_patch4_window7_224_from_scratch | 16.32%          | 14.65%         | 15.44%         |
 |          | swin_small_patch4_window7_224         | 42.92%   🔵       | 23.45%      | 30.33% 🔵     |
 |          | swin_small_patch4_window7_224_from_scratch | 16.18%          | 13.29%         | 14.60%         |
