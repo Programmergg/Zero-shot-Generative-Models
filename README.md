@@ -6,7 +6,6 @@ Our framework is suitable for APY, AWA1, AWA2, CUB (with 312-dim attributes or 1
 
 First, we will showcase the results produced by various generative models under the most common GZSL training process. The specific results are as follows:
 
-<center>
 | Methods                | Source                        | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |------------------------|--------------------------------------|-----------------|---------------|---------------|
 | AE                     | -                                    | 48.77%          | 56.92%        | 52.53%        |
@@ -28,7 +27,6 @@ First, we will showcase the results produced by various generative models under 
 | RaNSGAN                | Relativistic GAN                     | 46.73%          | 59.32%        | 52.28%        |
 | WGAN                   | Feature Generating Networks for Zero-Shot Learning | 57.9%           | 61.4%         | 59.6%         |
 | CramerGAN              | The Cramer distance as a solution to biased Wasserstein gradients | 60.62% 🔵       | 70.36%        | 65.13% 🔴     |
-</center>
 
 Note: 
 1. All the results mentioned above are based on experiments conducted on AWA1, where generally generating 2,000 unseen samples yields the optimal results. However, on AWA2, it usually takes creating 4,000 unseen samples to achieve the best outcome. For CUB and SUN, typically 400-500 unseen samples are enough, and the same goes for FLO and AWA1. 
