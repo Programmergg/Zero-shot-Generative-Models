@@ -120,12 +120,12 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |          | ViT_base_patch32_224_from_scratch | 62.53%          | 58.26%         | 60.32%         |
 |          | ViT_large_patch16_224          | 62.56% 🔵       | 64.84% 🔵     | 63.68% 🔵     |
 |          | ViT_large_patch16_224_from_scratch | 69.45%          | 67.13%  🔴        | 68.27%  🔴       |
-| SUN      | ViT_base_patch16_224           | 50.21% 🔴       | 49.11% 🔴     | 49.65% 🔴     |
+| SUN      | ViT_base_patch16_224           | 50.21%        | 49.11% 🔴     | 49.65% 🔵     |
 |          | ViT_base_patch16_224_from_scratch | 37.57%          | 35.00%         | 36.24%         |
-|          | ViT_base_patch32_224           | 50.28% 🔵       | 40.97% 🔵     | 45.15% 🔵     |
+|          | ViT_base_patch32_224           | 50.28%        | 40.97%      | 45.15%    |
 |          | ViT_base_patch32_224_from_scratch | 42.57%          | 41.12%         | 41.83%         |
-|          | ViT_large_patch16_224          | 56.94%          | 48.68%         | 52.49%         |
-|          | ViT_large_patch16_224_from_scratch | 51.67%          | 45.04%         | 48.13%         |
+|          | ViT_large_patch16_224          | 56.94%   🔴       | 48.68%  🔵       | 52.49%   🔴        |
+|          | ViT_large_patch16_224_from_scratch | 51.67%   🔵       | 45.04%         | 48.13%         |
 | aPY      | ViT_base_patch16_224           | 18.80%          | 28.53%      | 22.67%     |
 |          | ViT_base_patch16_224_from_scratch | 21.93%        | 37.21% 🔴     | 27.59% 🔵     |
 |          | ViT_base_patch32_224           | 20.75%          | 26.62%         | 23.32%         |
@@ -133,9 +133,9 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |          | ViT_large_patch16_224          | 21.00%          | 32.20%         | 25.42%         |
 |          | ViT_large_patch16_224_from_scratch | 24.01% 🔵         | 36.68%   🔵      | 29.03%  🔴        |
 | FLO      | ViT_base_patch16_224           | 67.73% 🔵       | 56.07%         | 61.35%         |
-|          | ViT_base_patch16_224_from_scratch | 70.02% 🔴       | 72.82% 🔴     | 71.39% 🔴     |
+|          | ViT_base_patch16_224_from_scratch | 70.02% 🔴       | 72.82%      | 71.39% 🔴     |
 |          | ViT_base_patch32_224           | 58.66%          | 52.35%         | 55.33%         |
-|          | ViT_base_patch32_224_from_scratch | 60.07%          | 75.80% 🔵     | 67.03% 🔵     |
+|          | ViT_base_patch32_224_from_scratch | 60.07%          | 75.80% 🔵     | 67.03%     |
 |          | ViT_large_patch16_224          | 57.27%          | 75.59%         | 65.16%         |
-|          | ViT_large_patch16_224_from_scratch | 59.96%          | 88.54%         | 71.50%         |
+|          | ViT_large_patch16_224_from_scratch | 59.96%          | 88.54%  🔴       | 71.50%  🔵        |
 
