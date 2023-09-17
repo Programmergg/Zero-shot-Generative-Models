@@ -13,9 +13,9 @@ First, we will showcase the results produced by various generative models under 
 | BEGAN                  | BEGAN: Boundary Equilibrium GAN      | 48.74%          | 63.37%        | 55.10%        |
 | DRGAN                  | DRAGAN: Deep Regret Analytic GAN     | 56.66%          | 69.24%        | 62.32%        |
 | fGAN-total_variation   | f-Divergence GANs                     | 58.35%          | 67.73%        | 62.69%        |
-| fGAN-forward_kl        | -                                    | 57.73%          | 72.00%  🔵    | 64.08% 🔵     |
+| fGAN-forward_kl        | -                                    | 57.73%          | 72.00%  🔵    | 64.08%      |
 | fGAN-reverse_kl        | -                                    | 60.11%   🔵       | 67.83%        | 63.73%        |
-| fGAN-pearson           | -                                    | 57.74%          | 72.56%  🔴      | 64.18%        |
+| fGAN-pearson           | -                                    | 57.74%          | 72.56%  🔴      | 64.18%  🔵      |
 | fGAN-hellinger         | -                                    | 58.25%          | 69.64%        | 63.44%        |
 | fGAN-jensen_shannon    | -                                    | 58.76%          | 69.59%        | 63.72%        |
 | FisherGAN              | -                                    | 59.43%          | 67.13%        | 63.05%        |
