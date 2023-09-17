@@ -32,7 +32,8 @@ Note:
 2. Although CramerGAN exhibits excellent performance, it cannot escape the phenomenon of mode collapse. If a situation arises where the Unseen Accuracy is zero, please change the value of the seed, as it can play a crucial role!
 
 Certainly, in addition to various generative models, we also demonstrate three very useful tricks:
-1. Replacing the original WGAN training method with the CramerGAN training method.
+1. Replacing the original WGAN training with the CramerGAN training.
 2. Applying a certain degree of Gaussian noise separately on seen and unseen attributes.
 3. Utilizing the generative prototypes classifier.
+
 These three tricks will significantly enhance the final results!
