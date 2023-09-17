@@ -50,54 +50,54 @@ Under the influence of these three tricks, the current performance of GZSL is pr
 Next, we will showcase the results of the GZSL task using pretrained models on ImageNet-1K and models trained from scratch on these datasets, employing backbones such as ConvNet, Vision Transformer, and Swin Transformer. The resulting outcomes are as follows:
 | Dataset | Pretrained Model                   | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |---------|------------------------------------|-----------------|---------------|---------------|
-| AWA2    | convnext_tiny_1k_224_ema           | 48.78% 🔴         | 64.99%        | 55.73%   🔴     |
+| AWA2    | convnext_tiny_1k_224_ema           | 48.78% 🔴         | 64.99%   🔵     | 55.73%   🔴     |
 |         | convnext_tiny_1k_224_ema_from_scratch| 37.77%        | 53.05%        | 44.13%        |
-|         | convnext_small_1k_224_ema          | 45.83%          | 67.94%   🔴     | 54.73%        |
+|         | convnext_small_1k_224_ema          | 45.83%    🔵      | 67.94%   🔴     | 54.73%  🔵      |
 |         | convnext_small_1k_224_ema_from_scratch| 37.54%       | 50.58%        | 43.09%        |
 |         | convnext_base_1k_224_ema           | 44.61%          | 64.32%        | 52.68%        |
 |         | convnext_base_1k_224_ema_from_scratch | 34.98%        | 52.58%        | 42.01%        |
 |         | convnext_large_1k_224_ema          | 45.23%          | 57.07%        | 50.46%        |
 |         | convnext_large_1k_224_ema_from_scratch| 33.90%       | 52.05%        | 41.06%        |
-| CUB     | convnext_tiny_1k_224_ema           | 33.67%     🔴     | 28.98%        | 31.15%        |
+| CUB     | convnext_tiny_1k_224_ema           | 33.67%     🔴     | 28.98%        | 31.15%     🔵   |
 |         | convnext_tiny_1k_224_ema_from_scratch| 28.35%        | 30.79%        | 29.52%        |
-|         | convnext_small_1k_224_ema          | 32.21%          | 30.62%        | 31.39%   🔴     |
+|         | convnext_small_1k_224_ema          | 32.21%    🔵      | 30.62%        | 31.39%   🔴     |
 |         | convnext_small_1k_224_ema_from_scratch| 27.77%       | 34.64%        | 30.83%        |
 |         | convnext_base_1k_224_ema           | 29.53%          | 30.53%        | 30.02%        |
 |         | convnext_base_1k_224_ema_from_scratch | 27.00%        | 36.03%  🔴      | 30.87%        |
-|         | convnext_large_1k_224_ema          | 24.37%          | 35.56%    🔴    | 28.92%        |
+|         | convnext_large_1k_224_ema          | 24.37%          | 35.56%    🔵    | 28.92%        |
 |         | convnext_large_1k_224_ema_from_scratch| 28.19%       | 34.41%        | 30.99%        |
 | CUB2    | convnext_tiny_1k_224_ema           | 27.77%          | 31.25%        | 29.41%        |
 |         | convnext_tiny_1k_224_ema_from_scratch| 27.14%        | 31.81%        | 29.29%        |
 |         | convnext_small_1k_224_ema          | 23.13%          | 32.46%        | 27.01%        |
 |         | convnext_small_1k_224_ema_from_scratch| 33.84%  🔴     | 33.25%        | 33.54%   🔴     |
 |         | convnext_base_1k_224_ema           | 23.63%          | 23.32%        | 23.48%        |
-|         | convnext_base_1k_224_ema_from_scratch | 29.51%        | 35.46%        | 32.21%        |
+|         | convnext_base_1k_224_ema_from_scratch | 29.51%  🔵      | 35.46%  🔴      | 32.21%        |
 |         | convnext_large_1k_224_ema          | 21.12%          | 21.37%        | 21.24%        |
-|         | convnext_large_1k_224_ema_from_scratch| 26.29%       | 35.36%        | 30.16%        |
-| SUN     | convnext_tiny_1k_224_ema           | 37.99%          | 26.74%        | 31.39%        |
+|         | convnext_large_1k_224_ema_from_scratch| 26.29%       | 35.36%    🔵    | 30.16%        |
+| SUN     | convnext_tiny_1k_224_ema           | 37.99%          | 26.74%        | 31.39%     🔵   |
 |         | convnext_tiny_1k_224_ema_from_scratch| 20.00%        | 10.58%        | 13.84%        |
 |         | convnext_small_1k_224_ema          | 43.40%    🔴      | 26.43%        | 32.86%  🔴      |
 |         | convnext_small_1k_224_ema_from_scratch| 20.07%       | 12.64%        | 15.51%        |
-|         | convnext_base_1k_224_ema           | 36.67%          | 29.22%    🔴    | 32.53%        |
+|         | convnext_base_1k_224_ema           | 36.67%    🔵      | 29.22%    🔴    | 32.53%        |
 |         | convnext_base_1k_224_ema_from_scratch | 21.39%        | 13.37%        | 16.46%        |
-|         | convnext_large_1k_224_ema          | 35.07%          | 28.91%        | 31.70%        |
+|         | convnext_large_1k_224_ema          | 35.07%          | 28.91%    🔵    | 31.70%        |
 |         | convnext_large_1k_224_ema_from_scratch| 17.22%       | 12.02%        | 14.16%        |
 | aPY     | convnext_tiny_1k_224_ema           | 11.43%          | 34.61%        | 17.18%        |
 |         | convnext_tiny_1k_224_ema_from_scratch| 17.69%        | 36.96%        | 23.92%        |
-|         | convnext_small_1k_224_ema          | 25.53%          | 15.41%        | 19.22%        |
+|         | convnext_small_1k_224_ema          | 25.53%     🔵     | 15.41%        | 19.22%        |
 |         | convnext_small_1k_224_ema_from_scratch| 16.91%       | 17.11%        | 17.01%        |
-|         | convnext_base_1k_224_ema           | 13.51%          | 54.68%   🔴     | 21.66%        |
+|         | convnext_base_1k_224_ema           | 13.51%          | 54.68%   🔴     | 21.66%   🔵     |
 |         | convnext_base_1k_224_ema_from_scratch | 18.93%        | 19.03%        | 18.98%        |
-|         | convnext_large_1k_224_ema          | 26.52%     🔴     | 37.23%        | 30.98%    🔴    |
+|         | convnext_large_1k_224_ema          | 26.52%     🔴     | 37.23%    🔵    | 30.98%    🔴    |
 |         | convnext_large_1k_224_ema_from_scratch| 17.48%       | 22.78%        | 19.78%        |
 | FLO     | convnext_tiny_1k_224_ema           | 27.28%          | 10.39%        | 15.05%        |
-|         | convnext_tiny_1k_224_ema_from_scratch| 50.20%        | 56.43%        | 53.13%        |
+|         | convnext_tiny_1k_224_ema_from_scratch| 50.20%   🔵     | 56.43%        | 53.13%        |
 |         | convnext_small_1k_224_ema          | 21.17%          | 14.18%        | 16.99%        |
 |         | convnext_small_1k_224_ema_from_scratch| 49.96%       | 66.62%        | 57.10%        |
 |         | convnext_base_1k_224_ema           | 21.59%          | 19.64%        | 20.57%        |
-|         | convnext_base_1k_224_ema_from_scratch | 53.90%  🔴      | 72.50%  🔴      | 61.83%   🔴     |
+|         | convnext_base_1k_224_ema_from_scratch | 53.90%  🔴      | 72.50%  🔵      | 61.83%   🔴     |
 |         | convnext_large_1k_224_ema          | 26.01%          | 31.22%        | 28.38%        |
-|         | convnext_large_1k_224_ema_from_scratch| 48.35%       | 78.45%        | 59.83%        |
+|         | convnext_large_1k_224_ema_from_scratch| 48.35%       | 78.45%   🔴     | 59.83%    🔵    |
 
 
 | Datasets | Pretrained Model               | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
