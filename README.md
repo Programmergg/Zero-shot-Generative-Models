@@ -5,7 +5,7 @@ Here, we have omitted the creation of the datasets. Please refer to other Genera
 Our framework is suitable for APY, AWA1, AWA2, CUB (with 312-dim attributes or 1024-dim attributes), FLO and SUN. The relevant experiments have been conducted.
 
 First, we will showcase the results produced by various generative models under the most common GZSL training process. The specific results are as follows:
-| 方法名字                | 来源(如果适用)                        | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
+| Methods                | Source                        | Unseen Accuracy | Seen Accuracy | Harmonic Mean |
 |------------------------|--------------------------------------|-----------------|---------------|---------------|
 | AE                     | -                                    | 48.77%          | 56.92%        | 52.53%        |
 | BIR VAE                | Bounded Information Rate Variational AutoEncoder | 53.00%          | 57.35%        | 55.09%        |
