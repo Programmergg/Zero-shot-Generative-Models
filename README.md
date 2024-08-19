@@ -104,7 +104,7 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |----------|--------------------------------|-----------------|---------------|---------------|
 | AWA2     | ViT_base_patch16_224           | 67.81% 🔴       | 76.95% 🔵     | 72.10% 🔵   |
 |          | ViT_base_patch16_224_from_scratch | 46.63%          | 61.48%         | 53.04%         |
-|          | ViT_base_patch32_224           | 60.91%        | 72.74% 🔵     | 66.30%       |
+|          | ViT_base_patch32_224           | 60.91%        | 72.74%       | 66.30%       |
 |          | ViT_base_patch32_224_from_scratch | 61.14%          | 71.71%         | 66.00%         |
 |          | ViT_large_patch16_224          | 66.69%  🔵        | 84.15%   🔴      | 74.41%  🔴       |
 |          | ViT_large_patch16_224_from_scratch | 56.70%          | 73.21%         | 63.91%         |
