@@ -114,12 +114,12 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |          | ViT_base_patch32_224_from_scratch | 51.76%          | 59.03%         | 55.15%         |
 |          | ViT_large_patch16_224          | 52.54%          | 62.40%           | 57.05%         |
 |          | ViT_large_patch16_224_from_scratch | 57.67% 🔴          | 65.43% 🔵        | 61.31%  🔴         |
-| CUB2     | ViT_base_patch16_224           | 62.86% 🔴      | 63.03%     | 62.94%    |
+| CUB2     | ViT_base_patch16_224           | 62.86% 🔵      | 63.03%     | 62.94%    |
 |          | ViT_base_patch16_224_from_scratch | 58.26%          | 60.90%         | 59.55%         |
 |          | ViT_base_patch32_224           | 59.10%          | 57.71%         | 58.40%         |
 |          | ViT_base_patch32_224_from_scratch | 62.53%          | 58.26%         | 60.32%         |
-|          | ViT_large_patch16_224          | 62.56% 🔵       | 64.84% 🔵     | 63.68% 🔵     |
-|          | ViT_large_patch16_224_from_scratch | 69.45%          | 67.13%  🔴        | 68.27%  🔴       |
+|          | ViT_large_patch16_224          | 62.56%         | 64.84% 🔵     | 63.68% 🔵     |
+|          | ViT_large_patch16_224_from_scratch | 69.45%  🔴        | 67.13%  🔴        | 68.27%  🔴       |
 | SUN      | ViT_base_patch16_224           | 50.21%        | 49.11% 🔴     | 49.65% 🔵     |
 |          | ViT_base_patch16_224_from_scratch | 37.57%          | 35.00%         | 36.24%         |
 |          | ViT_base_patch32_224           | 50.28%        | 40.97%      | 45.15%    |
