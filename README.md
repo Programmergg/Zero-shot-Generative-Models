@@ -83,10 +83,10 @@ Next, we will showcase the results of the GZSL task using pretrained models on I
 |         | convnext_large_1k_224_ema          | 35.07%          | 28.91%    🔵    | 31.70%        |
 |         | convnext_large_1k_224_ema_from_scratch| 17.22%       | 12.02%        | 14.16%        |
 | aPY     | convnext_tiny_1k_224_ema           | 11.43%          | 34.61%        | 17.18%        |
-|         | convnext_tiny_1k_224_ema_from_scratch| 17.69%        | 36.96%        | 23.92%        |
+|         | convnext_tiny_1k_224_ema_from_scratch| 17.69%        | 36.96%        | 23.92%   🔵    |
 |         | convnext_small_1k_224_ema          | 25.53%     🔵     | 15.41%        | 19.22%        |
 |         | convnext_small_1k_224_ema_from_scratch| 16.91%       | 17.11%        | 17.01%        |
-|         | convnext_base_1k_224_ema           | 13.51%          | 54.68%   🔴     | 21.66%   🔵     |
+|         | convnext_base_1k_224_ema           | 13.51%          | 54.68%   🔴     | 21.66%         |
 |         | convnext_base_1k_224_ema_from_scratch | 18.93%        | 19.03%        | 18.98%        |
 |         | convnext_large_1k_224_ema          | 26.52%     🔴     | 37.23%    🔵    | 30.98%    🔴    |
 |         | convnext_large_1k_224_ema_from_scratch| 17.48%       | 22.78%        | 19.78%        |
